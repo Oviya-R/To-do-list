@@ -1,0 +1,14 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+.section{
+    text-decoration: line-through;
+}
+.allbody{
+    background-color: rgb(158, 101, 180);
+    height: 400px;
+    width: 400px;
+}
