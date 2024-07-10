@@ -1,14 +1,35 @@
+
 .container{
-    height: 200px;
-    width: 200px;
+    text-align:justify;
     background-color: black;
-    color: white;
+    border: 20px;
+    padding: 20px;
+   height: 350px;
+   color: white;
+   width:350px;
+   align-items: center;
+
 }
 .section{
-    text-decoration: line-through;
-}
-.allbody{
-    background-color: rgb(158, 101, 180);
+    background-color: rgb(171, 112, 185);
     height: 400px;
-    width: 400px;
+    width:500px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
 }
+.line:checked + span{
+    text-decoration:line-through;
+    color: white;
+  }
+h2{
+    text-decoration: underline;
+    padding: 10px;
+}
+body{
+    align-content: center;
+}
+label{
+    padding: 10px;
+}
+
